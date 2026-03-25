@@ -1,0 +1,125 @@
+>> HTML & CSS Course:
+
+Agenda:
+1. Fundamentals of Web Development:
+
+> You will learn the languages and tools of web development
+> You will learn the key concepts and vocabulary like eg., URL, HTTP, DOM, etc
+> We will talk about how websites work
+> You will also learn how to inspect network traffic using any browser DevTools and it is popular tool used by Front-End Developer.
+> We will also talk about the basics of HTML & CSS
+> And you will laern how to validate the web packages
+
+
+2. Advanced concepts
+3. Building a website ---> Beautiful | Responsive | Fast website
+
+
+
+
+
+>> Tools like code editor to choose, use and start with the coding:
+
+1. Visual Studio Code:
+
+>> Steps to install, setup visual studio code and add on installation extension in the visual studio code for starting the course with html & css:
+                      
+Step 1: Go to browser and search for https://code.visualstudio.com
+Step 2: Next, click on 'Download for Windows'
+Step 3: And then check if the visual studio code is downloaded as .exe file by going to Downloads in Settings and more on the browser.
+Step 4: Next, double-click on the file that you have downloaded, and allow the checkbox by clicking on the checkboxes and clicking on Next button below.
+Step 5: And finally at the end click on Ok and Finish Button.
+Step 6: Next open the Visual Studio Code application.
+Step 7: Go to 'EXTENSIONS' (Ctrl+Shift+X).
+Step 8: Next, in the EXTENSIONS search for 'Prettier' it is by Code formatter using prettier.
+Step 9: Prettier is used for Formatting Code and prettier is a popular extension.
+Step 10: Next click on Install button in the Prettier extension.
+Step 11: Next, in the EXTENSIONS search for 'Live Server' it is by Ritwick Dey.
+Step 12: In Live Server we can launch our website inside a development web server.
+Step 13: Live Server is a popular extension.
+Step 14: Next click on Install button in the Live Server extension.
+Step 15: In addition to these, we are using browser to view and test webpages.
+
+
+
+
+
+>>> Starting with the Course:
+
+
+
+1. Every websites has two parts Front-End and Back-End:
+
+a. A front-end is a part that you have seen a browser and interact with all the visual aspects.
+
+b. The back-end is the part that powers the front-end, back-end is behind the scenes, back-end is mainly about exploring the data in databases and providing to the front-end.
+
+2. Web development jobs fall in three main categories:
+                                                      1. FRONT-END Development
+                                                      2. BACK-END Development
+                                                      3. FULL-STACK Development, which involves both front-end and back-end development
+                    
+3. Front-end Developers uses: HTML, CSS and JavaScript to build front-end.
+
+3. Back-end Developers have different sets of tools available.
+
+4. a. HTML --> 'Hyper-text Markup language' --> To define the building blocks of our webpages. HTML is a Markup language.
+   b. CSS --> Cascading Stylesheet --> CSS is used for styling webpages and making them beautiful. CSS is a styling language.
+   c. JavaScript --> JavaScript is used for adding functionalities to webpages. JavaScript is a programming language.
+
+5. Using HTML and CSS, we cannot tell the computer to what to do, instead we use to to define the building blocks of our webpages and styling.
+
+6. Front-End Frameworks or libraries are: 
+                                         1. REACT --> It is a library
+                                         2. ANGULAR
+                                         3. VUE
+
+>> All these tools Frameworks or libraries serves the same purposes.
+>> They help us build application faster.
+
+7. Version Control Systems:
+                           1. Used to track our projects history.
+                           2. Work collabratively with others.
+
+>> There are many Version Control Systems:
+                                          1. Git
+                                          2. Subversion (SVN)
+                                          3. Mercurial
+
+8. How the Web Works:
+                     1. URL --> Uniform Resource Location --> It is basically a way to loacte a resource on the internet.
+                                                              The Resources can be the Web pages aslo called as HTML documents, images, video files, Fonts.
+                                                              For each Resource, the browser sends a seperate http request to the server, to fetch that resource. 
+                                                              Many of the http request are sent in parallel, so we can see the page as quickly as possible.
+                                                              Once the browser has all the necessary resources, it will render the html document.
+                     
+                     2. The Client-Server Model:
+                                                a. When you type a URL eg., hhtps://www.google.com and hit Enter key, then, the browser, also known as clients, sends the message and the computers that hosts or target websites also reffered as web servers or servers, recieves the message.
+                                                b. Here the Client requests a service and the server provides the service.
+                                                c. so our browser sends a message to the server and says 'Hey give me the home page of the website..'
+                                                d. The message is formated based on a protocol called HTTP --> 'Hypertext Transfer protocol'.
+                                                e. HTTP is a language that clients and servers use to talk to each other, HTTP is not a programming language, instead it is a plain textual language for communicating over the internet.
+                                                f. The second is HTTPS --> Which is HTTP with Encryption. So the messages exchanges between the client and the server are encrypted.
+                                                g. Therefore, the servers recieves the message, it figures out that what the client is asking for, and then the server will send the output message to the client. The first message is called an HTTP Request and the second message is called an HTTP Response.
+                                                h. The every data exchanges using the HTTP protocol in most two messages, a Request and a Response.
+                                                i. Here, our browser sends an HTTP Request to the server and recieves an HTTP Response.
+                                                j. The HTTP Response contains a HTML Document. Here the browser reads the html document to construct a DOM (Document Object Model) and Render/Display the page.
+                                                i. As the browser, reads the Html document, it constructs a DOM --> 'Document Object Model'
+
+9. DOM --> 'Document Object Model'
+
+>> DOM is a model that represents the objects or elements is our html document.
+>> The Elements are all the building blocks of a page like paragragh of texts, images and links.
+
+10. Inspecting HTTP Requests and Responses:
+
+>> Steps to see HTTP Request and Responses in Action:
+
+Step 1: Go to a browser, and go to google.com.
+Step 2: To access the dev tool, you need to go to 'View', and next select 'Developer' and then select 'Developer Tools'
+Step 3: In dev tools, go to 'Network' Tab, to inspect the network traffic, To and From google.com
+Step 4: The dev tools can be 'Dock to Left' or 'Dock to Right' by clicking on three dots at the left corner.
+Step 5: Next, come back to google.com home page and click on Refresh button or use the shortcut keys as 'Ctrl+r' and refresh the page.
+Step 6: After you done with refresh the page, come back to dev tools as immediately after the page you refresh.
+Step 7: Then, you can see all the items, that are the http request, that are sent from a browser to google.com.
+Step 8: And if you click on the first Request in the dev tools, then you can see more details about it,f
