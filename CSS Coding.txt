@@ -1,0 +1,31 @@
+CSS Calc() Function 🤩 A secret trick for Flexible & Responsive Layout 😎
+🤯 The calc() function in CSS allows you to perform mathematical operations on different units of measurement, making it useful for creating flexible and responsive layouts.
+🧑‍💻 Basic Syntax -
+.div {
+ width: calc(Value);
+}
+
+The Link to visit: https://www.facebook.com/reel/1892081718369786
+
+
+
+
+Task: CSS background shorthand property sets all background style properties at once, such as color, image, origin and size, or repeat method. Component properties not set in the background shorthand property value declaration are set to their default values.
+
+Junior Level CSS Coding:
+
+The Code:
+
+background-color: #93acfa;
+background-img: url('img.png'); 
+background-repeat: no-repeat; 
+background-size: cover;
+
+
+
+
+Senior Level CSS Coding:
+
+The Code:
+
+background: #93acfa url('img.png') no-repeat cover;
