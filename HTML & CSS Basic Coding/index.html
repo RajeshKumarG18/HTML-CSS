@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Animated Login Page</title>
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+  }
+  .login-container {
+    background: white;
+    border-radius: 25px;
+    padding: 5rem;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    max-width: 350px;
+    width: 100%;
+    text-align: center;
+  }
+  .login-container h2 {
+    margin-bottom: 1rem;
+    color: #ff6f61;
+  }
+  .input-box {
+    position: relative;
+    margin: 1rem 0;
+  }
+  .input-box input {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #ffe3e3, #ffe6f0);
+    outline: none;
+    transition: all 0.3s ease;
+    font-size: 1rem;
+    color: #333;
+  }
+  .input-box input:focus {
+    border-color: #ff6f61;
+    box-shadow: 0 0 8px #ff6f61;
+  }
+  .login-btn {
+    display: inline-block;
+    background: #ff6f61;
+    color: white;
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 1rem;
+    transition: background 0.5s;
+  }
+  .login-btn:hover {
+    background: #ff3b2e;
+  }
+  .emoji {
+    position: fixed;
+    font-size: 2rem;
+    pointer-events: none;
+    transition: transform 0.1s;
+  }
+  @media (max-width: 400px) {
+    .login-container {
+      margin: 1rem;
+      padding: 1rem;
+    }
+    .emoji {
+      font-size: 1.5rem;
+    }
+  }
+</style>
+</head>
+<body>
+  <div class="emoji">👀</div>
+  <div class="login-container">
+    <h2>Login</h2>
+    <div class="input-box">
+      <input type="text" placeholder="Username">
+    </div>
+    <div class="input-box">
+      <input type="password" placeholder="Password">
+    </div>
+    <button class="login-btn">Login</button>
+  </div>
+  <script>
+    const emoji = document.querySelector('.emoji');
+    document.addEventListener('mousemove', (e) => {
+      emoji.style.left = e.pageX + 15 + 'px';
+      emoji.style.top = e.pageY + 15 + 'px';
+      const angle = Math.atan2(e.clientY - window.innerHeight / 2, e.clientX - window.innerWidth / 2);
+      emoji.style.transform = `rotate(${angle}rad)`;
+    });
+  </script>
+</body>
+</html> 
