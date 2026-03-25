@@ -1,0 +1,84 @@
+<< Title: CSS Flexbox >>
+
+
+Agenda:
+1. How to create a Flexbox layout for this items using Flexbox, we can control the Alignment & Size of the HTML elements.
+2. Some Flexbox are flexible, we will aslo control how they should behave in different screen sizes.
+ 
+Let's start the course:
+
+1. Filename: index.html
+
+
+The HTML Document Code: 
+                      
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <title>CSS Flexbox</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+     <div class="container">
+
+// This items are just example element.
+// So this could be buttons, images or links.
+
+          <div class="item">1</div>
+          <div class="item">2</div>
+          <div class="item">3</div>
+          <div class="item">4</div>
+          <div class="item">5</div>
+    </div>
+</body>
+
+</html>
+
+
+
+
+
+2. Filename: style.css
+
+
+The CSS Document Code: 
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    background-color: #222831;
+}
+.item{
+    width: 25px;
+    height: 25px;
+    background-color: #3FA9F5;
+    border-radius: 3px;
+    color: #fff;
+    text-align: center;
+    margin: 5px;
+    padding: 30px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+// To enable the Flexbox, we have to select the parent element of these five elements meaning the container.
+// When you enable the Flexbox, the 
+
+.container{
+
+// Take the display property and assign the value as flex, by declaring display flex the container in HTML Document is a Flexbox layout.
+     display: flex;
+
+// Adding Border of 2 pixel and solid black, so that we can see the edges of the Flexbox layout.
+     border: 2px solid  #1f1e1eff;
+// Note: It is for demonstration purposes.
+
+}
